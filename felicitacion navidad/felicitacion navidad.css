@@ -1,0 +1,120 @@
+#fondo{
+	z-index: 0;
+} 
+#cr7_cenando{
+	z-index: 1;
+	position: absolute;
+	left: 75px;
+	top: 490px;
+	widht:  300px;
+	height: 300px;
+	transform: rotate(-15deg);
+    animation-name: cr7_cenando;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    border-radius: 15px;
+    border: black solid;	
+}
+@keyframes cr7_cenando {
+    0% {
+        left: -500px;
+        top: -500px;
+        transform: rotate(0deg);
+}
+}
+#messi{
+	z-index: 1;
+	position: absolute;
+	left: 400px;
+	top: 150px;
+	widht:  400px;
+	height: 250px;
+	transform: rotate(0deg);
+    animation-name: messi;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: 10s;
+    border-radius: 20px;
+    border:  black solid 20px;
+}
+@keyframes messi {
+    0% {
+        left: 425px;
+        top: -1000px;
+        transform: rotate(0deg);
+}
+}
+#santa{
+	z-index: 1;
+	position: absolute;
+	right: 75px;
+	top: 490px;
+	widht:  300px;
+	height: 300px;
+	transform: rotate(15deg);
+    animation-name: santa;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: 2s;
+}
+@keyframes santa {
+    0% {
+        right: -500px;
+        top: -500px;
+        transform: rotate(0deg);
+}
+}
+#balon{
+	z-index: 2;
+	position: absolute;
+	left: 1150px;
+	bottom: 0px;
+	widht:  100px;
+	height: 100px;
+    animation-name: balon;
+    animation-duration:3.333333s;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+}
+@keyframes balon{
+    0% {
+        left: 0px;
+        bottom: 0px;
+        transform: rotate(0deg);
+}
+25%{
+        left: 300px;
+        bottom: 100px;
+        transform: rotate(180deg);
+}
+50% {
+        left: 600px;
+        bottom: 0px;
+        transform: rotate(0deg);
+}
+75% {
+        left: 900px;
+        bottom: 100px;
+        transform: rotate(180deg);
+}
+100% {
+        left: 1150px;
+        bottom: 0px;
+        transform: rotate(0deg);
+}
+}
+h2{
+	font-size: 30px;
+	letter-spacing: 10px;
+	font-family: sans-serif;
+	left: 90 px;
+}
+.centrado{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	position: absolute;
+	bottom: 200px ;
+	left:  450px;
+
+}
